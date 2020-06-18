@@ -9,7 +9,7 @@ This uses the [Moment.js](https://momentjs.com/) library to work with date and t
 
 Screenshots of deployed App
 
-<img src="https://raw.githubusercontent.com/jschollmeier/Work-Day-Scheduler/master/WDSSS1.PNG" alt="My cool logo"/>
+<img src="https://raw.githubusercontent.com/jschollmeier/Work-Day-Scheduler/master/WDSSS1.png" alt="My cool logo"/>
 <img src="https://raw.githubusercontent.com/jschollmeier/Work-Day-Scheduler/master/WDSSS2.PNG" alt="My cool logo"/>
 <img src="https://raw.githubusercontent.com/jschollmeier/Work-Day-Scheduler/master/WDSSS3.PNG" alt="My cool logo"/>
 
