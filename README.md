@@ -1,46 +1,18 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Work-Day-Scheduler By Kent Schollmeier
 
-Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+link to deployed application: https://jschollmeier.github.io/Work-Day-Scheduler/
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
 
-## User Story
+This is a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery. When the planner is opened the current day is displayed at the top. As you scroll down there are bloacks for every hour of the work day. As each hour passes the past hours turn grey the current hour block is red and the future hour blocks are green. Inside these blocks you can type to do items or meetings or what ever you want to plan during your day . Then by clicking the appropriate save button the data is saved to local storage to be redisplayed even after the page is refreshed.
 
-```
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+This uses the [Moment.js](https://momentjs.com/) library to work with date and time. 
 
-## Acceptance Criteria
+Screenshots of deployed App
 
-```
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+<img src="https://raw.githubusercontent.com/jschollmeier/Work-Day-Scheduler/master/WDSSS1.PNG" alt="My cool logo"/>
+<img src="https://raw.githubusercontent.com/jschollmeier/Work-Day-Scheduler/master/WDSSS2.PNG" alt="My cool logo"/>
+<img src="https://raw.githubusercontent.com/jschollmeier/Work-Day-Scheduler/master/WDSSS3.PNG" alt="My cool logo"/>
 
-The following animation demonstrates the application functionality:
 
-![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
 
-## Review
 
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.

@@ -6,7 +6,7 @@ var times = []
 $(".form-control").each(function (){
     times.push(this.id)
 });
-//var times2 = times.split(" ");
+
 
 
 for (var i = 0; i<times.length; i++){
