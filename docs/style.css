@@ -64,6 +64,9 @@ textarea{
   background-color: #06AED5;
   color: white;
   max-width: 135px;
+  text-align:center;
+  display: inline-block;
+  padding-right:50px;
  
   
 }
@@ -76,6 +79,7 @@ textarea{
 .form-group{
   margin-top: 10px;
  height: 95px;
+ 
   
 
 }
@@ -85,16 +89,51 @@ textarea{
 
 .form-control{
   background-color: #77dd77;
-  text-align: center;
+  padding-left:20px;
+  text-align: left;
+  font-weight: bold;
+
+  
+}
+.form-control:focus {
+  background-image: linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%);
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 15px 2px, 15px 2px, 2px 15px, 2px 15px;
+  background-position: left top, right bottom, left bottom, right   top;
+  animation: border-dance 250ms infinite linear;
 }
 
 .label{
   margin-top: -15px;
   text-align: right;
   margin-right: -15px;
+  padding-right:25px;
+  
+  
+  
+}
+@keyframes border-dance {
+  0% {
+    background-position: left top, right bottom, left bottom, right   top;
+  }
+  100% {
+    background-position: left 15px top, right 15px bottom , left bottom 15px , right   top 15px;
+  }
+}
+
+
+.container{
+  min-width:100%;
+  margin-bottom: 30px;
   
 }
 
+hr {
+  border: 1px dashed #161616;
+  border-style: none none dashed; 
+  color: #fff; 
+  background-color: #fff;
+}
 
 
 

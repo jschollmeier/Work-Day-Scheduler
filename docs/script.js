@@ -12,15 +12,15 @@ $(".form-control").each(function (){
 for (var i = 0; i<times.length; i++){
     if (times[i]===moment().format("H"))
     {
-        $("#"+times[i]).css("background-color","red");
+        $("#"+times[i]).css("background-color","#ff6961");
         
     }
     else if (parseInt(times[i])>parseInt(moment().format("H"))){
-        $("#"+times[i]).css("background-color","green");
+        $("#"+times[i]).css("background-color","#77dd77");
         
     }
     else{
-        $("#"+times[i]).css("background-color","grey");
+        $("#"+times[i]).css("background-color", "#d3d3d3");
         
     }
 } 
