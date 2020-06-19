@@ -26,7 +26,7 @@ for (var i = 0; i<times.length; i++){
 } 
 
 $(".btn").on('click', function(){
-    console.log($("#"+this.id).val());
+    
 
     localStorage.setItem(this.id, $("#"+this.id).val()) ;
     
